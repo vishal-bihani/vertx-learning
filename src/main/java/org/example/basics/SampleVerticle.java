@@ -1,4 +1,4 @@
-package org.example;
+package org.example.basics;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
@@ -24,7 +24,7 @@ public class SampleVerticle extends AbstractVerticle {
                     .setConfig(conf)
                     .setInstances(n);
 
-            vertx.deployVerticle("org.example.SampleVerticle", opts);
+            vertx.deployVerticle("org.example.basics.SampleVerticle", opts);
         }
     }
 }

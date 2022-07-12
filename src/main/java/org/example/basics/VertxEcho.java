@@ -1,4 +1,4 @@
-package org.example;
+package org.example.basics;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.net.NetSocket;

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.basics;
 
 import io.vertx.core.Context;
 import io.vertx.core.Vertx;

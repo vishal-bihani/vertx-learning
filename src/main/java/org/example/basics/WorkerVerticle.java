@@ -1,4 +1,4 @@
-package org.example;
+package org.example.basics;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
@@ -29,6 +29,6 @@ public class WorkerVerticle extends AbstractVerticle {
                 .setInstances(2)
                 .setWorker(true);
 
-        vertx.deployVerticle("org.example.WorkerVerticle", deploymentOptions);
+        vertx.deployVerticle("org.example.basics.WorkerVerticle", deploymentOptions);
     }
 }
